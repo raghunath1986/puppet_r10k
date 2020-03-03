@@ -1,1 +1,4 @@
-hiera_include('classes')
+node 'puppet-agent'{
+	include ::ntp
+	include ::stdlib
+}
