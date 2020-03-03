@@ -1,5 +1,5 @@
 node 'puppet-agent'{
-	include ::stdlib
-	include ::ntp
+	include stdlib
+	include ntp
 	
 }
